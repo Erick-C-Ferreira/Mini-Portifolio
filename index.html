@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Erick Ferreira</h1><!--Meu Nome-->
+            <h2 class="cargo">Desenvolvedor Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais">
+                </li>
+                <li class="aba" id="meus-projetos">
+                    <img src="./src/imagens/engrenagem.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre Mim</h3>
+
+                    <div class="descricao">
+                        <p>Olá meu nome é Erick, seja bem-vindo(a)!</p>
+
+                        <p>
+                            Sou uma pessoa apaixonada pela tecnologia desde criança e sempre
+                            tive o objetivo e vontade de trabalhar nesta area, me identifiquei
+                            muito com o ambiente de programação, em menos de um ano
+                            venho colocando essa vontade em prática estudando:
+                            <span>JAVA, HTML, CSS, JavaScript e Banco de Dados.</span>
+                            Atualmente, estou focando mais no ambiente de BackEnd com JAVA para compreender
+                            cada vez mas a sua logica.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.google.com/" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://web.whatsapp.com/" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="informacao" id="informacao-meus-projetos">
+                    <h3 class="sub-titulo">Alguns Projetos</h3>
+
+                    <ul class="meus-projetos">
+                        <li>
+                            <a href="https://prodigio.netlify.app/" target="_blank" class="projeto1">Prodigio</a>
+                        </li>
+
+                        <p>
+                            Prodigio, foi um projeto realizado para fins didaticos,
+                            de quando eu estava cursando pela Generation Brasil e iniciando
+                            minha carreira como programador. Neste projeto foi utilizado JAVA e React.
+                        <p>
+                            Baseado na ODS-4 da ONU, o intuito foi a criação de um E-commerce
+                            voltado para a educação de ensino a distancia, onde o aluno poderia
+                            agendar uma aula das disponiveis na plataforma com um professor ao vivo e
+                            com um custo acessivel.
+                        </p>
+
+                        <li>
+                            <a href="https://meublogerf.netlify.app/" target="_blank" class="projeto2">BlogPessoal</a>
+                        </li>
+                        <p>
+                            BlogPessoal Tambem foi um projeto elaborado para fins didaticos
+                            e nele tambem foi utilizado JAVA e React.
+                            o intuito deste blog é fazer uma listagem de animes vistos ou a ver, e fazer
+                            anotações sobre os mesmo. este projeto ainda está em andamento e em breve 
+                            apos aprender um pouco, pretendo aplicar responsividade para tambem ser acessivel
+                            por dispositivos moveis.
+        
+                        </p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/indexRefatorado.js"></script>
+</body>
+
+</html>
