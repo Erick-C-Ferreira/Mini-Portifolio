@@ -44,6 +44,11 @@ body {
     color: #b8bbc5;
 }
 
+.foto-de-perfil {
+    width: 155px;
+    height: 150px;
+}
+
 .cartao .conteudo {    
     margin-top: 15px;
 }
